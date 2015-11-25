@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/*div文字居中*/
+div{
+    text-align: center;
+}
+/*头部样式*/
+.header{
+    padding: 20px;
+    height: 110px;
+    background-color: aqua;
+}
+/*主体样式*/
+.article{
+    height: 400px;
+    background-color: green;
+    /*padding-left: 150px;*/
+    /*padding-right: 100px;*/
+    overflow: hidden;
+}
+/*主体左部布局*/
+.article .left{
+    background-color: yellow;
+    float: left;
+    width: 150px;
+    margin-left: -100%;
+    margin-bottom: -9999px;
+    padding-bottom: 9999px;
+    /*position: relative;*/
+    /*left: -150px;*/
+}
+/*主体中间布局*/
+.article .middle{
+    background-color: gray;
+    float: left;
+    width: 100%;
+    margin-bottom: -9999px;
+    padding-bottom: 9999px;
+}
+/*主体右部布局*/
+.article .right{
+    background-color: orangered;
+    float: left;
+    width: 150px;
+    margin-left: -150px;
+    margin-bottom: -9999px;
+    padding-bottom: 9999px;
+    /*position: relative;*/
+    /*left: 100px;*/
+}
+/*主体中间内部容器样式*/
+.article .inner{
+    margin-left: 150px;
+    margin-right: 100px;
+    /*background-color: yellow;*/
+}
+/*尾部样式*/
+.footer{
+    height: 100px;
+    background-color: #f8e7a3;
+}

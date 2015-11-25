@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>双飞翼布局</title>
+    <link rel="stylesheet" type="text/css" href="doublefly.css"/>
+</head>
+<body>
+    <!-- 头部-->
+    <div class="header">
+        <p>I am header!</p>
+    </div>
+    <!-- 主体-->
+    <div class="article">
+        <!-- 主体中间容器-->
+        <div class="middle">
+            <!-- 主体中部-->
+            <div class="inner">
+                <p>I am middle!</p>
+                <p>(优先顺序渲染，宽度自适应)</p>
+            </div>
+        </div>
+        <!-- 主体左部-->
+        <div class="left">
+            <p>I am left!</p>
+            <p>(第二顺序渲染，宽度固定)</p>
+        </div>
+        <!-- 主体右部-->
+        <div class="right">
+            <p>I am right!</p>
+            <p>(第三顺序渲染，宽度固定)</p>
+        </div>
+    </div>
+    <!-- 尾部-->
+    <div class="footer">
+        <p>I am footer!</p>
+    </div>
+</body>
+</html>
